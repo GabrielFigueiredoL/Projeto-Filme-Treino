@@ -1,0 +1,35 @@
+.marker {
+  display: flex;
+  padding: 16px;
+  color: #fff;
+  background-color: #262529;
+  gap: 16px;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.marker p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.marker img {
+  width: 16px;
+  height: 16px;
+}
+
+.marker button {
+  background: none;
+  border: none;
+  padding: none;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.add_btn {
+  border: 2px dashed #948F99;
+  background: none;
+}

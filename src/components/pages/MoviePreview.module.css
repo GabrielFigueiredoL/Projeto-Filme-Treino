@@ -1,0 +1,42 @@
+.container {
+  margin: 40px 106px 0 123px;
+  color: #f4ede8;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500px;
+}
+
+.movie_stats {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.movie_rating {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.user_update {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user_update img {
+  height: 16px;
+  border-radius: 50%;
+}
+
+.markers {
+  display: flex;
+  gap: 8px;
+}
+

@@ -1,0 +1,47 @@
+.container {
+  margin: 40px 106px 85px 123px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title h1 {
+  margin-top: 24px;
+  font-size: 36px;
+  color: #F4EDE8;
+}
+
+.title_rating {
+  display: flex;
+  gap: 40px;
+}
+
+.container textarea {
+  padding: 18px 16px;
+  background-color: #262529;
+  color: #948F99;
+  border: none;
+  resize: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.markers_container p{
+  font-size: 20px;
+  color: #999591;
+  margin-bottom: 24px;
+}
+
+.markers {
+  display: flex;
+  background: #0D0C0F;
+  padding: 16px;
+  gap: 24px;
+  border-radius: 8px;
+
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+}

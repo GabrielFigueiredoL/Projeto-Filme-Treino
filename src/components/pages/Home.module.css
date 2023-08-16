@@ -1,0 +1,57 @@
+.container {
+  margin: 50px 100px 60px 120px;
+}
+
+.container_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.container_title p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.container_title a {
+  display: flex;
+  align-items: center;
+  padding: 13.5px 32px;
+  border-radius: 8px;
+  border: none;
+  gap: 8px;
+  height: auto;
+
+  background: #ff859b;
+  color: #1c1b1e;
+
+  font-size: 16px;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.container_title button img {
+  width: 16px;
+  height: 16px;
+}
+
+.movies {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-height: 57vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.movies::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+
+.movies::-webkit-scrollbar-thumb {
+  background: #FF859B;
+  border-radius: 8px;
+}

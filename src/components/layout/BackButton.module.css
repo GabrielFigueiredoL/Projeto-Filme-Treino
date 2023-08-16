@@ -1,0 +1,9 @@
+.back_button {
+  display: flex;
+  text-decoration: none;
+  color: #ff859b;
+  gap: 8px;
+  width: fit-content;
+  align-items: center;
+  font-size: 16px;
+}
